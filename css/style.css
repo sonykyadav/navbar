@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+ul li{
+    list-style: none;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+.link{
+    display: flex;
+    padding: 30px;
+    
+}
+.navbar-list{
+    padding: 10px;
+    justify-content: space-between;
+   
+}
+.navbar .link .active{
+    color: blue;
+}
+.main-btn{
+   
+    font-size: 20px;
+    color: blue;
+    padding:10px ;
+    border-color: blue;
+    margin: 1rem;
+    border-radius:0.3rem;   
+}
+.btn{
+    font-size:20px;
+    color: blue;
+    padding: 10px;
+    background: blue; 
+    color: white; 
+    margin: 1rem;
+    border-radius:0.3rem;
+    
+}
+
+
+
